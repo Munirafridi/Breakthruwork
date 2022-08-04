@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <form method="post">
+        <div class="row">
+            <div class="col">
+                <input type="text" id="idtxt" class="form-control" placeholder="Id">
+            </div>
+            <div class="col">
+                <input type="text" id="nametxt" class="form-control" placeholder="Name">
+            </div>
+            <div class="col">
+                <input type="text" id="agetxt" class="form-control" placeholder="Age">
+            </div>
+            <div class="col">
+                <input type="text" id="addresstxt" class="form-control" placeholder="Address">
+            </div>
+            <div class="col">
+                <input type="text" id="phontxt" class="form-control" placeholder="Mobile Number">
+            </div>
+            <div class="col">
+                <input type="text" id="searchtxt"  class="form-control" placeholder="Search">
+            </div>
+        </div>
+    </form>
+    <br>
+        <form>
+        <button type="button" class="btn btn-primary btn-lg" id="showdata">Get API</button>
+        <button type="button" class="btn btn-primary btn-lg" id="postdata">Post Api</button>
+        <button type="button" class="btn btn-primary btn-lg" id="showarray">Data Form Array</button>
+        <button type="button" class="btn btn-primary btn-lg" onclick=addvalue.textdata() id="addobj">Student</button>
+        <button type="button" class="btn btn-primary btn-lg" id="fileid">New File</button>
+        <button type="button"  class="btn btn-primary btn-lg" onclick=mydata() id="searchbtn">Search</button>
+
+
+
+        <table id="tblid" class="table ">
+            <thead>
+                <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Age</th>
+                    <th scope="col">Adress</th>
+                    <th scope="col">Phone Number</th>
+                    <th scope="col">Button</th>
+                </tr>
+            <tbody>
+            </tbody>
+        </table>
+
+    </form>
+    <img src="" id="img" >
+    </table>
+    <script src="addbutton (1).js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
+    <script src="index (1).js"></script>
+    <script src="api (1).js"></script>
+    <script src="dataarray (1).js"></script>
+    <script src="newfile (1).js"></script>
+    <script src="fetchimg.js"></script>
+    <script src="postdata.js"></script>
+    <script src="search.js"></script>
+</body>
+
+</html>

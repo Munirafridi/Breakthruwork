@@ -1,0 +1,27 @@
+[
+  {
+    "Name": "munir",
+    "Age": 20,
+    "Address": "karachi"
+  
+  },
+  {
+    "Name": "Asim",
+    "Age": 24,
+    "Address": "Sadar"
+  
+  },
+  {
+    "Name": "Waqar",
+    "Age": 26,
+    "Address": "DHA"
+  
+  },
+  {
+    "Name": "Majid",
+    "Age": 23,
+    "Address": "Peshawar"
+  
+  }
+
+  ]
