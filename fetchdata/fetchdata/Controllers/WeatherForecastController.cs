@@ -76,6 +76,7 @@ namespace fetchdata.Controllers
 
         public IActionResult post(insertdata student)
         {
+            // todo test github
             return Ok(student);
         }
         [HttpPut]
